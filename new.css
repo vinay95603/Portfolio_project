@@ -1,0 +1,92 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color:bisque;
+    color: black;
+    padding: 30px 0;
+    text-align: center;
+    
+}
+
+header h1 {
+    margin: 10px 0;
+}
+
+header p {
+    margin-bottom: 20px;
+}
+
+header img {
+    border-radius: 50%;
+    
+    
+}
+
+section {
+    padding: 20px;
+    background-color: #ffffff;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+}
+
+h2 {
+    color: #2c3e50;
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-bottom: 1px;
+    border-bottom: 2px solid #2c3e50;
+    padding-bottom: 5px;
+    text-align: center; /* Center-align heading */
+}
+
+ul {
+    list-style-type: disc; /* Add bullets */
+    padding: 0;
+    text-align: center; /* Center-align list items */
+}
+
+li {
+    margin-bottom: 10px;
+    text-align: center; /* Align list item text to left */
+}
+
+footer {
+    background-color:#000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 1px 0;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+.tf{
+    padding:4px ;
+    padding-bottom:0px ;
+    color: #FFFFFF;
+    border-bottom: 0px;
+    background-color: #000000;
+    margin-bottom: 0px;
+}
+a:hover{
+    cursor:pointer;
+}
+.no-bullets {
+    list-style-type: none; /* Removes default bullet points */
+}
+
